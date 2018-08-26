@@ -20,8 +20,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func overrideTraitCollection(forChildViewController childViewController: UIViewController) -> UITraitCollection? {
-        
+    override func viewWillAppear(_ animated: Bool) {
+        //
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        //
     }
 
 
